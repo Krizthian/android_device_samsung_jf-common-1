@@ -110,8 +110,8 @@ PRODUCT_PACKAGES += \
     libqdMetaData
 
 # Doze 
-PRODUCT_PACKAGES += \
-    SamsungDoze
+# PRODUCT_PACKAGES += \
+    # SamsungDoze
 
 # GPS HAL
 PRODUCT_PACKAGES += \

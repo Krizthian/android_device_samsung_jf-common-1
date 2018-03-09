@@ -52,6 +52,8 @@ LZMA_RAMDISK_TARGETS := recovery
 TARGET_KERNEL_CONFIG := aosp_jf_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/jf
 BOARD_KERNEL_IMAGE_NAME := zImage
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
